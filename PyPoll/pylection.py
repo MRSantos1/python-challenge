@@ -67,13 +67,13 @@ print(f"----------------")
 print(f"Winner: {winner_name}")
 print(f"----------------")
 
-# Specify File To Write To
+# file output
 output_file = os.path.join('UCBSF201908DATA2' , '01-Lesson-Plans' , '03-Python' , 'Homework' , 'PyPoll' , 'Resources' , 'election_data_analysis_complete.txt')
 
 # txtfile outputs
 with open(output_file, 'w',) as txtfile:
 
-# Write New Data
+# textfile contents
     txtfile.write(f"Election Results\n")
     txtfile.write(f"----------------\n")
     txtfile.write(f"Total Votes: {total_votes}\n")
